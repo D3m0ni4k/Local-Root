@@ -2,6 +2,10 @@ pkg install proot
 
 pkg install fish
 
-proot -0 -w ~ $PREFIX/bin/bash
+git clone https://github.com/D3m0ni4k/Local-Root
+
+cd Local-Root
+
+sh D3m0ni4k-Root.sh
 
 fish
